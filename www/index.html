@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>DocuLink</title>
+
+		<link rel="stylesheet" href="css/style.css">
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+	</head>
+	<body>
+		<script src="js/valid.js"></script>
+		<main>
+		<div align="center" id="front_page_container">
+			<h1 id="title_logo">DocuLink</h1>
+			<form action="search.php" method="POST">
+				<input type="hidden" name="n" value="10">
+				<input type="text" placeholder="Search..." name="q" required>
+				<input type="submit" value="Search">
+			</form>
+			<nav><a href="about.html">About</a> |
+			<a href="legal.html">Legal</a> |
+			<a href="submit.php">Submit A Link!</a></nav>
+		</div>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,151 @@
+/* Global Styles */
+:root
+{
+	/* general config */
+	--text-colour: white;
+	--margin-colour: white;
+	--article-header-font: "Arial", serif;
+
+	/* nav link config */
+	--nav-button-colour: white;
+	--nav-button-text-colour: black;
+	--nav-button-hover-colour: lightblue;
+}
+
+/* Header Styles */
+header
+{
+	color: var(--text-colour);
+	#background-color: var(--margin-colour);
+}
+
+nav a
+{
+	height: 15px;
+	padding: 3px;
+	margin-top: 1px;
+	text-align: center;
+	border-radius: 8px;
+	display: inline-block;
+	text-decoration: none;
+	#background-color: var(--nav-button-colour);
+	color: var(--nav-button-text-colour);
+}
+
+nav a:hover
+{
+	text-decoration: underline;
+	background-color: var(--nav-button-hover-colour);
+}
+
+/* Main Styles */
+@media screen and (max-width: 780px)
+{
+	.inner
+	{
+		margin: 0;
+	}
+
+	.outer
+	{
+		visibility: none;
+	}
+	
+	.article_container
+	{
+		border-style: ridge groove;
+	}
+}
+
+@media screen and (min-width: 780px)
+{
+	.inner
+	{
+		margin: auto 5%;
+		border-style: solid;
+		box-shadow: darkgrey 0px 0px 2px 2px;
+	}
+
+	.outer
+	{
+		background-image: repeating-linear-gradient(lightblue, beige 5%, white 5%);
+	}
+
+	.article_container
+	{
+		border-style: ridge none;
+	}
+}
+
+.inner
+{
+	height: 100%;
+	background-color: white;
+}
+
+.absolute_center
+{
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -25%);
+	position: absolute;
+}
+
+.article_container
+{
+	padding: 5px;
+	background-color: #F5F3D0;
+}
+
+.article_header
+{
+	color: black;
+	padding-left: 5px;
+	text-decoration: underline;
+	font-family: var(--article-header-font);;
+}
+
+.front_page_item
+{
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: relative;
+}
+
+/* Footer Styles */
+footer, footer a
+{
+	color: var(--text-colour);
+	background-color: var(--margin-colour);
+}
+
+/* Misc Styles */
+#front_page_container
+{
+	margin-top: 10%;
+}
+
+#title_logo
+{
+}
+
+.submit_box
+{
+	display: block;
+}
+
+input[type="text"]
+{
+	width: 45%;
+	margin: 5px 0px;
+	padding: 2px 2px;
+	box-sizing: border-box;
+}
+
+button[type="submit"], input[type="submit"]
+{
+	padding: 2px 2px;
+	border-style: solid;
+	border-color: lightblue;
+	background-color: white;
+}
