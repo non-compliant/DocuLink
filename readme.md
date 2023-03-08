@@ -11,7 +11,7 @@
 * sqlite3 - the database, may need to enable usage
 	in your php.ini file
 ## Installation Assuming GNU/Linux
-	It should be as simple as plopping all the files stored in
+It should be as simple as plopping all the files stored in
 www/ into your web directory, which may be something like /var/www/html,
 or /srv/http/. However you may need to edit your [php.ini](/etc/php/php.ini) file,
 specifically uncommenting the line that reads "extension=pdo_sqlite". As long as
