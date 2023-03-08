@@ -21,5 +21,6 @@ be great.
 I have no clue!
 ## Contact Information
 E-Mail: [redacted these were the instructs I sent the professor lol]
+
 Feel free to contact me if you need any assistance. We could set up a meeting
 if assistance, or further clarification is needed.
